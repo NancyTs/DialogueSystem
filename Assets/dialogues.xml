@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DialogueNode>
+    <id>1</id>
+    <charName>Nick</charName>
+    <dialogueText>Hey Bob how are you doing?</dialogueText>
+    <nextNode>2</nextNode>
+  </DialogueNode>
+  <DialogueNode>
+    <id>3</id>
+    <charName>Nick</charName>
+    <dialogueText>I'm good too, thanks for asking</dialogueText>
+    <nextNode>5</nextNode>
+  </DialogueNode>
+  <DialogueNode>
+    <id>2</id>
+    <charName>Bob</charName>
+    <dialogueText>Not bad Nick, how are you?</dialogueText>
+    <nextNode>3</nextNode>
+  </DialogueNode>
+  <DialogueNode>
+    <id>5</id>
+    <charName>Bob</charName>
+    <dialogueText>Okay bye now!</dialogueText>
+    <nextNode>4</nextNode>
+  </DialogueNode>
+  <DialogueNode>
+    <id>4</id>
+    <charName>Nick</charName>
+    <dialogueText>Bye Man!</dialogueText>
+  </DialogueNode>
+</nodes>
